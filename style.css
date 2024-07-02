@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: var(--light-grayish-blue);
+}
+
+.container {
+    max-width: 768px;
+    min-width: 319px;
+    padding: 50px 20px;
+}
+.testimonial{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px hsla(217, 19%, 35%, 0.2);;
+}
+.header{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--light-gray);
+}
+
+.name-1{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--very-dark-grayish-blue);
+}
+.status, .review{
+    font-weight: 500;
+    color: var(--light-gray);
+    opacity: 0.5;
+}
+
+.status-1, .review-1{
+    font-weight: 500;
+    color: var(--very-dark-grayish-blue);
+    opacity: 0.5;
+}
+
+.about{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--light-gray);
+    margin-bottom: 20px ;
+}
+
+.about-1{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--very-dark-grayish-blue);
+    margin-bottom: 20px ;
+}
+
+
+.one{
+    background-color: var(--moderate-violet);
+}
+
+.two{
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.three, .five{
+    background-color: var(--white);
+}
+
+.four{
+    background-color: var(--very-dark-blackish-blue);
+}
+
+@media screen and (min-width:768px) {
+    body{
+        min-height: 600px;
+    }
+    .container{
+        max-width: 90vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .one{
+        grid-area: 1/ 1/ 2/ 3;
+    }
+
+    .five{
+        grid-area: 1/ 4/ 3/ 5;
+    }
+
+    .four{
+        grid-area: 2/ 2/ 3/ 4;
+    }
+}
