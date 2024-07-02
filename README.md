@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/rakesh265/testimonials-grid-section)
+- Live Site URL: [live site URL](https://testimonials-grid-section-alpha-eight.vercel.app/)
 
 ## My process
 
@@ -39,13 +39,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-
-
-
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- by - RAKESH MUNJALA
+- Linkedin - [@Rakesh Munjala](https://www.linkedin.com/in/rakesh-munjala-024711238/)
+- Frontend Mentor - [@rakesh265](https://www.frontendmentor.io/profile/rakesh265)
 
